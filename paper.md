@@ -3,7 +3,7 @@ Technical Trends in Phishing Attacks
 
 Jason Milletary, CERT Coordination Center
 
-##Goals of this paper
+##Goals and contributions
 The goals and contributions of this paper are three-fold.
 > - Identify several of the technical capabilities that are used to conduct phishing scams
 > - Review the trends in these capabilities over the past two years
@@ -19,19 +19,15 @@ The goals and contributions of this paper are three-fold.
 Just as with real fisherman, phishers today have a large tackle box of tools available to them.
 These tools serve a variety of functions, and in this paper, they are classified into six broad categories.
 
-###1. Bots/Botnets
-
-- Bots : programs that reside on a computer and provide remote command and control access via a variety of protocols  
-- Botnet : Several of these bots are under common control
-
- Bots provide the controller with features that can be used to support illicit activity
+####1. Bots/Botnets
+ "Bots" refer to programs that reside on a computer and provide remote command and control access via a variety of protocols. 
+When Several of these bots are under common control, it is commonly referred to as a botnet. Bots provide the controller with features that can be used to support illicit activity such as DDos(Distributed denial of service).
 
 
-###2. Phishing Kits
+####2. Phishing Kits
+ Ready-to-use phishing kits containing items such as pre-generated HTML pages and emails provide a lower barrier to entry into the marketplace for criminals.
 
- ready-to-use phishing kits containing items such as pre-generated HTML pages and emails
-
-###3. Technical Deceit
+####3. Technical Deceit
 - Basic URL Obfuscation
  - simple HTML redirection  
    : use a legitimate URL within an anchor element but have its href attribute point to a malicious site
@@ -48,7 +44,7 @@ These tools serve a variety of functions, and in this paper, they are classified
 - Web Browser Cross-Zone Vulnerabilities  
  : attempt to lure users to a web site attempting to install spyware and/or malware onto the victim's computer, and theses web sites usually rely on vulnerabilities in web browsers even when these sites are located in a security zone
 
-###4. Session Hijacking
+####4. Session Hijacking
 - Domain Name Resolving Attacks  
  : add bogus entries to a computer's hosts file, subvert process of mapping domain names to IP addresses to forcefully redirect users to a malicious site
 - Cross-Site Scripting Attacks  
@@ -58,11 +54,11 @@ These tools serve a variety of functions, and in this paper, they are classified
 - Man-in-the-Middle Attacks  
  : a broad class of potential attacks in which an attacker is able to intercept, read, and modify communications between two other parties without their knowledge
 
-###5. Abuse of Domain Name Service (DNS)
+####5. Abuse of Domain Name Service (DNS)
 
- providing phishers with the ability to easily redirect traffic from one phishing site to another if the initial site is shut down
+ This providing phishers with the ability to easily redirect traffic from one phishing site to another if the initial site is shut down. Thus, The use of dynamic DNS and registration of multiple IP addresses for a single fully qualified domain name (FQDN) is becoming more prevalent to increase the resilience of phishing sites.
 
-###6. Specialized Malware
+####6. Specialized Malware
 - *Electronic Surveillance* : capture and record a user's keystrokes and mouse clicks, and also capture network packets or protocol information before it is encrypted for transit over the network
 - *Password Harvesters* : be able to search a computer for account and password
 - *Self-Contained Scam Pages and Dialog Boxes* : monitor for connections to specific banking URLs and either display a pop-up window or dialog box, or attempt to overlay the existing web page with a fake one.
