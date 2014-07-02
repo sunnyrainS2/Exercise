@@ -35,10 +35,15 @@ Jason Milletary, CERT Coordination Center
 ###3. Technical Deceit
 - Basic URL Obfuscation
  - simple HTML redirection  
+   : use a legitimate URL within an anchor element but have its href attribute point to a malicious site
  - Use of JPEG images  
+   : JPEG image appears to be legitimate email, however when users click on this image, they are directed to a phishing site.
  - Use of alternate encoding schemes  
+   : be observed in cross-site scripting attacks to obfuscate the malicious URL
  - Registration of similar domain names  
-- Web Browser Spoofing Vulnerabilities
+   : trick customers who are satisfied by just seeing a legitimate name appear in a URL
+- Web Browser Spoofing Vulnerabilities  
+ : several vulnerabilities in web browsers have provided phishers with the ability to obfuscate URLs and/or install malware on victim machines
 - International Domain Names (IDN) Abuse  
  : mechanism by which domain names with Unicode characters can be supported in the ASCII format used by the existing DNS infrastructure
 - Web Browser Cross-Zone Vulnerabilities  
