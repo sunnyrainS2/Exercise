@@ -4,22 +4,21 @@ Technical Trends in Phishing Attacks
 Jason Milletary, CERT Coordination Center
 
 ##Goals and Contribution
-- Identify several of the technical capabilities that are used to conduct phishing scams
-- Review the trends in these capabilities over the past two years
-- Discuss currently deployed countermeasures.
+The goals and contributions of this paper are three-fold.
+> - Identify several of the technical capabilities that are used to conduct phishing scams
+> - Review the trends in these capabilities over the past two years
+> - Discuss currently deployed countermeasures.
 
 ##Background
-- focus on crimes targeting personal information used for financial fraud and identity theft
-- Criminals are able to profit from the increased adoption of online services for many day-to-day activities (unawareness of threat and policy, criminals’ technical sophistication)
-
-##Physhing Today
-- Originally
- - use of electronic mail messages, designed to look like messages from a trusted agent
-- Recently
- - encompass a wider variety of electronic financial crimes (+spyware)
+- This paper focus on crimes targeting personal information used for financial fraud and identity theft.
+- Criminals are able to profit from the increased adoption of online services for many day-to-day activities. There are three major factors that criminals have been able to take advantage of : unawareness of threat, unawareness of policy, and criminals’ technical sophistication
+- Originally, physhing was identified as the use of electronic mail messages, designed to look like messages from a trusted agent. Over time, these fake emails and web sites have evolved to become more technically deceiving to casual investigation. Recently the definition of phishing has grown to encompass a wider variety of electronic financial crimes including spyware.
 
 
 ##Tackle Box
+Just as with real fisherman, phishers today have a large tackle box of tools available to them.
+These tools serve a variety of functions, and in this paper, they are classified into six broad categories.
+
 ###1. Bots/Botnets
 
 - Bots : programs that reside on a computer and provide remote command and control access via a variety of protocols  
@@ -84,14 +83,13 @@ Jason Milletary, CERT Coordination Center
 
 
 ##Phishing Countermeasures
-* Widely Implemented Countermeasures
- - Awareness and Education
- - Targeting Hosting Sites
- - Web Browser Toolbars
- - Strong Authentication and Authorization
- - Virus, Spyware, and Spam Prevention
-* Recommendations
- - Awareness
- - Vigilance
- - Foresight
+Various solutions have been developed in response to phishing.
+The following list contains five most commonly implemented today.
+ > 1. Awareness and Education
+ > 2. Targeting Hosting Sites
+ > 3. Web Browser Toolbars
+ > 4. Strong Authentication and Authorization
+ > 5. Virus, Spyware, and Spam Prevention
 
+  And Here are some recommendations of this paper to help people deal with the increasing technical capabilities of criminals conducting phishing scams.  
+  First, phishing **awareness** must continue to evolve to address the growing capabilities available to phishers. Second, decrease the return on investment of the activity to the criminal community for **vigilance**. Third, having **foresight** is important to be aware of when sensitive information is at risk.
