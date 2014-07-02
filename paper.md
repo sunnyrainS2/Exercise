@@ -39,8 +39,10 @@ Jason Milletary, CERT Coordination Center
  - Use of alternate encoding schemes  
  - Registration of similar domain names  
 - Web Browser Spoofing Vulnerabilities
-- International Domain Names (IDN) Abuse
-- Web Browser Cross-Zone Vulnerabilities
+- International Domain Names (IDN) Abuse  
+ : mechanism by which domain names with Unicode characters can be supported in the ASCII format used by the existing DNS infrastructure
+- Web Browser Cross-Zone Vulnerabilities  
+ : attempt to lure users to a web site attempting to install spyware and/or malware onto the victim's computer, and theses web sites usually rely on vulnerabilities in web browsers even when these sites are located in a security zone
 
 ###4. Session Hijacking
 - Domain Name Resolving Attacks  
@@ -53,7 +55,8 @@ Jason Milletary, CERT Coordination Center
  : a broad class of potential attacks in which an attacker is able to intercept, read, and modify communications between two other parties without their knowledge
 
 ###5. Abuse of Domain Name Service (DNS)
-- providing phishers with the ability to easily redirect traffic from one phishing site to another if the initial site is shut down
+
+ providing phishers with the ability to easily redirect traffic from one phishing site to another if the initial site is shut down
 
 ###6. Specialized Malware
 - Electronic Surveillance  
