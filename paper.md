@@ -28,7 +28,7 @@ When Several of these bots are under common control, it is commonly referred to 
  Ready-to-use phishing kits containing items such as pre-generated HTML pages and emails provide a lower barrier to entry into the marketplace for criminals.
 
 ####3. Technical Deceit
-- Basic URL Obfuscation
+- *Basic URL Obfuscation* : URL obfuscation misleads the victims into thinking that a web site is a trusted site. These following methods tend to be technically simple yet highly effective, and are still used to some extent in phishing emails today.
  - simple HTML redirection  
    : use a legitimate URL within an anchor element but have its href attribute point to a malicious site
  - Use of JPEG images  
@@ -37,26 +37,26 @@ When Several of these bots are under common control, it is commonly referred to 
    : be observed in cross-site scripting attacks to obfuscate the malicious URL
  - Registration of similar domain names  
    : trick customers who are satisfied by just seeing a legitimate name appear in a URL
-- Web Browser Spoofing Vulnerabilities  
+- *Web Browser Spoofing Vulnerabilities*  
  : several vulnerabilities in web browsers have provided phishers with the ability to obfuscate URLs and/or install malware on victim machines
-- International Domain Names (IDN) Abuse  
+- *International Domain Names (IDN) Abuse*  
  : mechanism by which domain names with Unicode characters can be supported in the ASCII format used by the existing DNS infrastructure
-- Web Browser Cross-Zone Vulnerabilities  
+- *Web Browser Cross-Zone Vulnerabilities*  
  : attempt to lure users to a web site attempting to install spyware and/or malware onto the victim's computer, and theses web sites usually rely on vulnerabilities in web browsers even when these sites are located in a security zone
 
 ####4. Session Hijacking
-- Domain Name Resolving Attacks  
+- *Domain Name Resolving Attacks*  
  : add bogus entries to a computer's hosts file, subvert process of mapping domain names to IP addresses to forcefully redirect users to a malicious site
-- Cross-Site Scripting Attacks  
+- *Cross-Site Scripting Attacks*  
  : construct a URL that contain code, such as JavaScript, that could target account credentials or involve the exploitation of vulnerable URL redirector programs
-- Domain Name Typos  
+- *Domain Name Typos*  
  : registration of domain names that closely resemble the domain name of a legitimate high-traffic site
-- Man-in-the-Middle Attacks  
+- *Man-in-the-Middle Attacks*  
  : a broad class of potential attacks in which an attacker is able to intercept, read, and modify communications between two other parties without their knowledge
 
 ####5. Abuse of Domain Name Service (DNS)
 
- This providing phishers with the ability to easily redirect traffic from one phishing site to another if the initial site is shut down. Thus, The use of dynamic DNS and registration of multiple IP addresses for a single fully qualified domain name (FQDN) is becoming more prevalent to increase the resilience of phishing sites.
+ Dynamic DNS providers providie phishers with the ability to easily redirect traffic from one phishing site to another if the initial site is shut down. Thus, The use of dynamic DNS and registration of multiple IP addresses for a single fully qualified domain name (FQDN) is becoming more prevalent to increase the resilience of phishing sites.
 
 ####6. Specialized Malware
 - *Electronic Surveillance* : capture and record a user's keystrokes and mouse clicks, and also capture network packets or protocol information before it is encrypted for transit over the network
