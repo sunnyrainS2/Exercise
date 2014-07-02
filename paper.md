@@ -37,6 +37,7 @@ When Several of these bots are under common control, it is commonly referred to 
    : be observed in cross-site scripting attacks to obfuscate the malicious URL
  - Registration of similar domain names  
    : trick customers who are satisfied by just seeing a legitimate name appear in a URL
+
 - **Web Browser Spoofing Vulnerabilities**  
  : several vulnerabilities in web browsers have provided phishers with the ability to obfuscate URLs and/or install malware on victim machines
 - **International Domain Names (IDN) Abuse**  
@@ -45,6 +46,7 @@ When Several of these bots are under common control, it is commonly referred to 
  : attempt to lure users to a web site attempting to install spyware and/or malware onto the victim's computer, and theses web sites usually rely on vulnerabilities in web browsers even when these sites are located in a security zone
 
 ####4. Session Hijacking
+  There is the threat of a user being redirected into a phishing site even if they correctly try to access a legitimate site.
 - **Domain Name Resolving Attacks**  
  : add bogus entries to a computer's hosts file, subvert process of mapping domain names to IP addresses to forcefully redirect users to a malicious site
 - **Cross-Site Scripting Attacks**  
@@ -55,28 +57,24 @@ When Several of these bots are under common control, it is commonly referred to 
  : a broad class of potential attacks in which an attacker is able to intercept, read, and modify communications between two other parties without their knowledge
 
 ####5. Abuse of Domain Name Service (DNS)
-
- Dynamic DNS providers providie phishers with the ability to easily redirect traffic from one phishing site to another if the initial site is shut down. Thus, The use of dynamic DNS and registration of multiple IP addresses for a single fully qualified domain name (FQDN) is becoming more prevalent to increase the resilience of phishing sites.
+  Dynamic DNS providers providie phishers with the ability to easily redirect traffic from one phishing site to another if the initial site is shut down. Thus, The use of dynamic DNS and registration of multiple IP addresses for a single fully qualified domain name (FQDN) is becoming more prevalent to increase the resilience of phishing sites.
 
 ####6. Specialized Malware
+  Over the past two years, there has been an emergence of malware being used for criminal activity against users of online banking and commerce sites. This copy can be considered a class of spyware.
 - **Electronic Surveillance** : capture and record a user's keystrokes and mouse clicks, and also capture network packets or protocol information before it is encrypted for transit over the network
 - **Password Harvesters** : be able to search a computer for account and password
 - **Self-Contained Scam Pages and Dialog Boxes** : monitor for connections to specific banking URLs and either display a pop-up window or dialog box, or attempt to overlay the existing web page with a fake one.
 - **Account Siphoners** : actively steal money from a financial services site by automating a monetary transfer from the victim's account
-- Phishing-Related Malware Examples
- - *Bancos*  
- : one of the oldest and largest categories of phishing malware. Bancos monitors IE for specific bank URLs and attempts to capture account information.
- - *Bankash*  
- : implemented as an Internet Explorer Browser Helper Object and targets online banking information.
- - *W32/Grams*  
- : an account siphoner that uses COM automation to directly steal money from a victim's account on an online financial site.
- - *CoreFloo(AFCore)*  
- : a bot that gains remote command and control of an infected computer, the ability to monitor for HTTP traffic to specified URLs.
+
+  Here are some phishing-related malware examples:
+ - *Bancos* : one of the oldest and largest categories of phishing malware. Bancos monitors IE for specific bank URLs and attempts to capture account information.
+ - *Bankash* : Bankash implemented as an Internet Explorer Browser Helper Object and targets online banking information.
+ - *W32/Grams* : an account siphoner that uses COM automation to directly steal money from a victim's account on an online financial site.
+ - *CoreFloo(AFCore)* : a bot that gains remote command and control of an infected computer, the ability to monitor for HTTP traffic to specified URLs.
 
 
 ##Good ways to deal with phishing attacks
-Various solutions have been developed in response to phishing.
-The following list contains five most commonly implemented today:
+  Various solutions have been developed in response to phishing. The following list contains five most commonly implemented today:
  > 1. Awareness and Education
  > 2. Targeting Hosting Sites
  > 3. Web Browser Toolbars
