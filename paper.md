@@ -3,7 +3,7 @@ Technical Trends in Phishing Attacks
 
 Jason Milletary, CERT Coordination Center
 
-##Goals and Contribution
+##Goals of 
 The goals and contributions of this paper are three-fold.
 > - Identify several of the technical capabilities that are used to conduct phishing scams
 > - Review the trends in these capabilities over the past two years
@@ -82,9 +82,9 @@ These tools serve a variety of functions, and in this paper, they are classified
  : a bot that gains remote command and control of an infected computer, the ability to monitor for HTTP traffic to specified URLs.
 
 
-##Phishing Countermeasures
+##Good ways to deal with phishing attacks
 Various solutions have been developed in response to phishing.
-The following list contains five most commonly implemented today.
+The following list contains five most commonly implemented today:
  > 1. Awareness and Education
  > 2. Targeting Hosting Sites
  > 3. Web Browser Toolbars
