@@ -59,10 +59,10 @@ When Several of these bots are under common control, it is commonly referred to 
  Dynamic DNS providers providie phishers with the ability to easily redirect traffic from one phishing site to another if the initial site is shut down. Thus, The use of dynamic DNS and registration of multiple IP addresses for a single fully qualified domain name (FQDN) is becoming more prevalent to increase the resilience of phishing sites.
 
 ####6. Specialized Malware
-- *Electronic Surveillance* : capture and record a user's keystrokes and mouse clicks, and also capture network packets or protocol information before it is encrypted for transit over the network
-- *Password Harvesters* : be able to search a computer for account and password
-- *Self-Contained Scam Pages and Dialog Boxes* : monitor for connections to specific banking URLs and either display a pop-up window or dialog box, or attempt to overlay the existing web page with a fake one.
-- *Account Siphoners* : actively steal money from a financial services site by automating a monetary transfer from the victim's account
+- **Electronic Surveillance** : capture and record a user's keystrokes and mouse clicks, and also capture network packets or protocol information before it is encrypted for transit over the network
+- **Password Harvesters** : be able to search a computer for account and password
+- **Self-Contained Scam Pages and Dialog Boxes** : monitor for connections to specific banking URLs and either display a pop-up window or dialog box, or attempt to overlay the existing web page with a fake one.
+- **Account Siphoners** : actively steal money from a financial services site by automating a monetary transfer from the victim's account
 - Phishing-Related Malware Examples
  - *Bancos*  
  : one of the oldest and largest categories of phishing malware. Bancos monitors IE for specific bank URLs and attempts to capture account information.
