@@ -20,47 +20,48 @@ Jason Milletary, CERT Coordination Center
 
 
 ##Tackle Box
-1. Bots/Botnets
+###1. Bots/Botnets
 
- - Bots : programs that reside on a computer and provide remote command and control access via a variety of protocols  
- - Botnet : Several of these bots are under common control
+- Bots : programs that reside on a computer and provide remote command and control access via a variety of protocols  
+- Botnet : Several of these bots are under common control
+
  Bots provide the controller with features that can be used to support illicit activity
 
 
-2. Phishing Kits
+###2. Phishing Kits
 
  ready-to-use phishing kits containing items such as pre-generated HTML pages and emails
 
-3. Technical Deceit
- - Basic URL Obfuscation
-   - simple HTML redirection  
-   - Use of JPEG images  
-   - Use of alternate encoding schemes  
-   - Registration of similar domain names  
- - Web Browser Spoofing Vulnerabilities
- - International Domain Names (IDN) Abuse
- - Web Browser Cross-Zone Vulnerabilities
+###3. Technical Deceit
+- Basic URL Obfuscation
+ - simple HTML redirection  
+ - Use of JPEG images  
+ - Use of alternate encoding schemes  
+ - Registration of similar domain names  
+- Web Browser Spoofing Vulnerabilities
+- International Domain Names (IDN) Abuse
+- Web Browser Cross-Zone Vulnerabilities
 
-4. Session Hijacking
- - Domain Name Resolving Attacks
- - Cross-Site Scripting Attacks
- - Domain Name Typos
- - Man-in-the-Middle Attacks
+###4. Session Hijacking
+- Domain Name Resolving Attacks
+- Cross-Site Scripting Attacks
+- Domain Name Typos
+- Man-in-the-Middle Attacks
 
-5. Abuse of Domain Name Service (DNS)
-6. Specialized Malware
- - Electronic Surveillance
- - Password Harvesters
- - Self-Contained Scam Pages and Dialog Boxes
- - Account Siphoners
- - Phishing-Related Malware Examples
-   - Bancos  
+###5. Abuse of Domain Name Service (DNS)
+###6. Specialized Malware
+- Electronic Surveillance
+- Password Harvesters
+- Self-Contained Scam Pages and Dialog Boxes
+- Account Siphoners
+- Phishing-Related Malware Examples
+ - Bancos  
  : one of the oldest and largest categories of phishing malware. Bancos monitors IE for specific bank URLs and attempts to capture account information.
-   - Bankash  
+ - Bankash  
  : implemented as an Internet Explorer Browser Helper Object and targets online banking information.
-   - W32/Grams  
+ - W32/Grams  
  : an account siphoner that uses COM automation to directly steal money from a victim's account on an online financial site.
-   - CoreFloo(AFCore)  
+ - CoreFloo(AFCore)  
  : a bot that gains remote command and control of an infected computer, the ability to monitor for HTTP traffic to specified URLs.
 
 
@@ -74,7 +75,6 @@ Jason Milletary, CERT Coordination Center
 * Recommendations
  - Awareness
  - Vigilance
- - Foresight  
-    
+ - Foresight
 
 
