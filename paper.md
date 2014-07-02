@@ -95,5 +95,3 @@ Jason Milletary, CERT Coordination Center
  - Vigilance
  - Foresight
 
-
-
