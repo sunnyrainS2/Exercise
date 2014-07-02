@@ -3,7 +3,7 @@ Technical Trends in Phishing Attacks
 
 Jason Milletary, CERT Coordination Center
 
-##Goals of 
+##Goals of this paper
 The goals and contributions of this paper are three-fold.
 > - Identify several of the technical capabilities that are used to conduct phishing scams
 > - Review the trends in these capabilities over the past two years
@@ -15,7 +15,7 @@ The goals and contributions of this paper are three-fold.
 - Originally, physhing was identified as the use of electronic mail messages, designed to look like messages from a trusted agent. Over time, these fake emails and web sites have evolved to become more technically deceiving to casual investigation. Recently the definition of phishing has grown to encompass a wider variety of electronic financial crimes including spyware.
 
 
-##Tackle Box
+##Tools about Phishing
 Just as with real fisherman, phishers today have a large tackle box of tools available to them.
 These tools serve a variety of functions, and in this paper, they are classified into six broad categories.
 
@@ -63,14 +63,10 @@ These tools serve a variety of functions, and in this paper, they are classified
  providing phishers with the ability to easily redirect traffic from one phishing site to another if the initial site is shut down
 
 ###6. Specialized Malware
-- Electronic Surveillance  
- : capture and record a user's keystrokes and mouse clicks, and also capture network packets or protocol information before it is encrypted for transit over the network
-- Password Harvesters  
- : be able to search a computer for account and password
-- Self-Contained Scam Pages and Dialog Boxes  
- : monitor for connections to specific banking URLs and either display a pop-up window or dialog box, or attempt to overlay the existing web page with a fake one.
-- Account Siphoners  
- : actively steal money from a financial services site by automating a monetary transfer from the victim's account
+- *Electronic Surveillance* : capture and record a user's keystrokes and mouse clicks, and also capture network packets or protocol information before it is encrypted for transit over the network
+- *Password Harvesters* : be able to search a computer for account and password
+- *Self-Contained Scam Pages and Dialog Boxes* : monitor for connections to specific banking URLs and either display a pop-up window or dialog box, or attempt to overlay the existing web page with a fake one.
+- *Account Siphoners* : actively steal money from a financial services site by automating a monetary transfer from the victim's account
 - Phishing-Related Malware Examples
  - Bancos  
  : one of the oldest and largest categories of phishing malware. Bancos monitors IE for specific bank URLs and attempts to capture account information.
