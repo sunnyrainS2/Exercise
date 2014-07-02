@@ -67,10 +67,10 @@ When Several of these bots are under common control, it is commonly referred to 
 - **Account Siphoners** : actively steal money from a financial services site by automating a monetary transfer from the victim's account
 
   Here are some phishing-related malware examples:
- - *Bancos* : one of the oldest and largest categories of phishing malware. Bancos monitors IE for specific bank URLs and attempts to capture account information.
- - *Bankash* : Bankash implemented as an Internet Explorer Browser Helper Object and targets online banking information.
- - *W32/Grams* : an account siphoner that uses COM automation to directly steal money from a victim's account on an online financial site.
- - *CoreFloo(AFCore)* : a bot that gains remote command and control of an infected computer, the ability to monitor for HTTP traffic to specified URLs.
+> - *Bancos* : one of the oldest and largest categories of phishing malware. Bancos monitors IE for specific bank URLs and attempts to capture account information.
+> - *Bankash* : Bankash implemented as an Internet Explorer Browser Helper Object and targets online banking information.
+> - *W32/Grams* : an account siphoner that uses COM automation to directly steal money from a victim's account on an online financial site.
+> - *CoreFloo(AFCore)* : a bot that gains remote command and control of an infected computer, the ability to monitor for HTTP traffic to specified URLs.
 
 
 ##Good ways to deal with phishing attacks
