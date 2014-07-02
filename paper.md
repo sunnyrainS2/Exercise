@@ -3,34 +3,29 @@ Technical Trends in Phishing Attacks
 
 Jason Milletary, CERT Coordination Center
 
-Goals and Contribution
-----
+##Goals and Contribution
 - Identify several of the technical capabilities that are used to conduct phishing scams
 - Review the trends in these capabilities over the past two years
 - Discuss currently deployed countermeasures.
 
-Background
-----
-
+##Background
 - focus on crimes targeting personal information used for financial fraud and identity theft
 - Criminals are able to profit from the increased adoption of online services for many day-to-day activities (unawareness of threat and policy, criminals’ technical sophistication)
 
-Physhing Today
-----
+##Physhing Today
 - Originally
  - use of electronic mail messages, designed to look like messages from a trusted agent
 - Recently
  - encompass a wider variety of electronic financial crimes (+spyware)
 
 
-Tackle Box
-----
+##Tackle Box
 1. Bots/Botnets
 
  - Bots : programs that reside on a computer and provide remote command and control access via a variety of protocols  
  - Botnet : Several of these bots are under common control
-
  Bots provide the controller with features that can be used to support illicit activity
+
 
 2. Phishing Kits
 
@@ -69,8 +64,7 @@ Tackle Box
  : a bot that gains remote command and control of an infected computer, the ability to monitor for HTTP traffic to specified URLs.
 
 
-Phishing Countermeasures
-----
+##Phishing Countermeasures
 * Widely Implemented Countermeasures
  - Awareness and Education
  - Targeting Hosting Sites
