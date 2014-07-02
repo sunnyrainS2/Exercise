@@ -50,10 +50,14 @@ Jason Milletary, CERT Coordination Center
 
 ###5. Abuse of Domain Name Service (DNS)
 ###6. Specialized Malware
-- Electronic Surveillance
-- Password Harvesters
-- Self-Contained Scam Pages and Dialog Boxes
-- Account Siphoners
+- Electronic Surveillance  
+ : capture and record a user's keystrokes and mouse clicks, and also capture network packets or protocol information before it is encrypted for transit over the network
+- Password Harvesters  
+ : be able to search a computer for account and password
+- Self-Contained Scam Pages and Dialog Boxes  
+ : monitor for connections to specific banking URLs and either display a pop-up window or dialog box, or attempt to overlay the existing web page with a fake one.
+- Account Siphoners  
+ : actively steal money from a financial services site by automating a monetary transfer from the victim's account
 - Phishing-Related Malware Examples
  - Bancos  
  : one of the oldest and largest categories of phishing malware. Bancos monitors IE for specific bank URLs and attempts to capture account information.
