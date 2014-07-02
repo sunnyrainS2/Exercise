@@ -1,8 +1,0 @@
-Exercise
-========
-
-Exercise
-----
-
-Exercise2
-----
