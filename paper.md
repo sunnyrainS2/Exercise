@@ -9,7 +9,7 @@ The goals and contributions of this paper are three-fold.
 > - Review the trends in these capabilities over the past two years
 > - Discuss currently deployed countermeasures.
 
-##Background
+##What is phishing?
 - This paper focus on crimes targeting personal information used for financial fraud and identity theft.
 - Criminals are able to profit from the increased adoption of online services for many day-to-day activities. There are three major factors that criminals have been able to take advantage of : unawareness of threat, unawareness of policy, and criminals’ technical sophistication
 - Originally, physhing was identified as the use of electronic mail messages, designed to look like messages from a trusted agent. Over time, these fake emails and web sites have evolved to become more technically deceiving to casual investigation. Recently the definition of phishing has grown to encompass a wider variety of electronic financial crimes including spyware.
