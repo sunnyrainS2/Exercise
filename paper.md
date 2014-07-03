@@ -25,7 +25,7 @@ When Several of these bots are under common control, it is commonly referred to 
 
 
 ####2. Phishing Kits
- Ready-to-use phishing kits containing items such as pre-generated HTML pages and emails provide a lower barrier to entry into the marketplace for criminals.
+ Phishing Kit is a collection of tools assembled to make it easier for people with little technical skill to launch a phishing exploit. Ready-to-use phishing kits containing items such as pre-generated HTML pages and emails provide a lower barrier to entry into the marketplace for criminals.
 
 ####3. Technical Deceit
 - **Basic URL Obfuscation** : URL obfuscation misleads the victims into thinking that a web site is a trusted site. These following methods tend to be technically simple yet highly effective, and are still used to some extent in phishing emails today.
