@@ -36,7 +36,10 @@ Adrienne Porter Felt, David Wagner
 ## Phishing Attacks
 
 ## Risk Evaluation
-
+  An attack's plausibility is a combination of how prevalent the legitimate behavior is in real applications, and how accurately the attacker can copy the legitimate behavior. As the result of matching and evaluating each attack technique, of the 15 attacks, 8 mimic common legitimate behaviors and use highly accurate techniques.
+  --5.2 Targets
+  
+ 
 ## Attack Prevention
   Here are some two solutions for the problems due to the absence of identity indicators.
   > 1. permanently dedicate some small portion of the screen to application identity.  
