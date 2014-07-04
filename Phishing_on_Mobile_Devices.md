@@ -5,7 +5,7 @@ Adrienne Porter Felt, David Wagner
 ##The contributions of this paper are:
 > 1. Discuss phishing attacks between mobile applications and web sites for the first time
 > 2. Present data on how mobile applications and web sites interact.
-> Sun3. Present and evaluate 15 types of phishing attacks.(including novel and known attacks)
+> 3. Present and evaluate 15 types of phishing attacks.(including novel and known attacks)
 
 ##Background
   In this paper, authors focus on the two most popular modern smartphone operationg systems, Android and iOS.
