@@ -28,27 +28,44 @@ Bin Liu, Ramesh Govindan
 #### 2. Path Prioritization
   Many (especially tablet) apps contain too many states for a Monkey to explore within a limited time budget. To address this, DECAF uses a novel state equivalence prediction method to prioritize which paths to traverse in the UI graph for detecting structural fraud and a novel state importance assessment for detecting contextual fraud.
 ##### 1) State Equivalence Prediction
-  To motivate state equivalence prediction, the authors consider two following points.
-  Backward transitions can be expensive. Minimizing state traversal overhead using prediction.
+  To motivate state equivalence prediction, the authors consider two following points: Backward transitions can be expensive and Minimizing state traversal overhead using prediction.
 ##### 2) State Importance Assessment
-  Using app usage for estimating state importance. Prioritizing state traversal using state importance.
+  DECAF exploits the observation that not all pages within an app are equally important, considering two following points: Using app usage for estimating state importance and Prioritizing state traversal using state importance.
 #### 3. Page Load Completion Detection
   DECAF has no way of knowing when the page has loaded in order to check state equivalence. DECAF uses a simpler and app language-agnostic technique to monitors all I/O activities of the app process, and maintains their sum over a sliding window of time T. The method has the virtue of simplicity, but comes at a small cost of latency, given by sliding window length, to detect the page load.
 
 #### 4. Fraud Checker Optimizations
-Detecting too many ads.
-Detecting hidden and intrusive ads.
+  DECAF incorporates several scalability optimizations as part of its fraud checkers.
+  
+##### 1) Detecting too many ads.
+  Detect whether a page contains more than k ads in any screen position can be tricky.
 
-
+##### 2) Detecting hidden and intrusive ads.
+  Determine if an ad is completely hidden or partially overlapped by other GUI elements is challenging due to missing z-coordinates of the elements. To deal with that, DECAF uses two classifiers, exploiting DOM-tree structure, and analyzing screenshots. Then combining the classifiers.
 
 ## Evaluation
 #### 1. State Equivalence Prediction
+  - Accuracy of SVM model : keep the Monkey running and let it explore the remaining states in random order until the time budget is exhausted.
+  Benefits of using equivalence prediction
+  - Benefits of using equivalence prediction : to demonstrate this, they use a prediction enabled SVM monkey and a basic monkey.
+
 #### 2. Assessing State Importance
+  In this section, the authors evaluate the best node and path strategies. To assign values and costs of various app states, we conducted a user study to obtain app usage information.
+  As a result, Value coverage increases monotonically with exploration time. More importantly, path-based algorithms outperform node-based algorithms, as they can better exploit global knowledge of values of entire paths; the best-path algorithm significantly outperforms the random-path algorithm.
+
 #### 3. Overall Speed and Throughput
+  The mean and median time for an app is 11.8 minutes and 11.25 minutes respectively; at this rate, DECAF can scan around 125 apps on a single machine per day.
 
 ## Characterizing Ad Fraud
 #### Fraud by Type
+  Ad count violations are more prevalent on the phone, which has a stricter limit.
+
 #### Fraud by App Category
+   fraud is equally prevalent across the two platforms, but there are several instances where fraud is more prevalent in one platform than the other.
+
 #### Frauds by rating
+  The distribution of rating values is about the same for fraudulent and nonfraudulent apps
+
+
 #### The propensity of publishers to commit fraud.
-#### Takeaways
+  The rate of compliance is much higher in tablet apps, but that may also be because our sample is much smaller.
