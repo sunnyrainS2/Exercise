@@ -51,10 +51,26 @@ Adrienne Porter Felt, David Wagner
 
 
 ## Phishing Attacks
+  For each scenario, we present two types of attacks: *direct attacks* and *man-in-the-middle attacks*. In a direct attack, the sender application is malicious and loads a fraudulent target application. In a man-in-the-middle attack, the sender and target applications are both benign, but a malicious party intercepts the control transfer and responds in place of the legitimate target.  
+  The goal of our attacker is to mimic the legitimate application behavior that we identified in the application survey. This paper evaluate how well each attack meets these accuracy goals.
+
 ### Mobile Sender ⇒ Mobile Target
+##### 1) Direct Attack
+  Mobile login screens are often very simple, which makes them easy to copy. Android’s permission system would do little to warn users of this attack. The Apple application review process might prevent this attack from appearing in the App Store if reviewers detect the fraudulent screen.
+
+##### 2) Man in the Middle
+  Man-in-the-middle attacks can be launched on mobile applications in two ways: scheme squatting, 
+
+
 ### Mobile Sender ⇒ Web Target
+##### 1) Direct Attack
+##### 2) Man in the Middle
 ### Web Sender ⇒ Mobile Target
+##### 1) Direct Attack
+##### 2) Man in the Middle
 ### Web Sender ⇒ Web Target
+##### 1) Direct Attack
+##### 2) Man in the Middle
 
 
 ## Risk Evaluation
