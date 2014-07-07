@@ -35,14 +35,12 @@ Adrienne Porter Felt, David Wagner
 ### Mobile Sender
   This paper studied the control transfer pattenrs of 50 most popular free Android and iOS applications and also observed whether each control transfer involves the entry of information pertaining to passwords and payment.
 #### Mobile Sender ⇒ Mobile Target
-    1) Some Applications encourage users to share content with their Facebook or Twitter. These target applications are password-protected.
+  When passwords and patments are required
 
-    2) A free version of an application links to Market or App Store to "Upgrade."
-    In order to complete the upgrade, the user may need to enter password or payment information into the store.
-
-    3) Music-centric applications typically contain links to purchase songs. Both target applications may require passwords or payment.
-
-    4) Both immediately request a password to complete the sale. They will also ask the user to verify her payment information.
+    Share content with their Facebook or Twitter.
+    For upgrade of a free version of an application.
+    Music-centric applications typically contain links to purchase songs.
+    Both immediately request a password to complete the sale.
 
 #### Mobile Sender ⇒ Web Target
 ### Web Sender
