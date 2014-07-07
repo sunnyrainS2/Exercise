@@ -35,17 +35,19 @@ Adrienne Porter Felt, David Wagner
 ### Mobile Sender
   This paper studied the control transfer pattenrs of 50 most popular free Android and iOS applications and also observed whether each control transfer involves the entry of information pertaining to passwords and payment.
 #### Mobile Sender ⇒ Mobile Target
-  When passwords and patments are required
-
-    Share content with their Facebook or Twitter.
-    For upgrade of a free version of an application.
-    Music-centric applications typically contain links to purchase songs.
-    Both immediately request a password to complete the sale.
+  Users of mobile applications are accustomed to seeing links to other mobile applications for social sharing, upgrades, music, and credits. Links to e-mail, Facebook, Twitter, and the platform stores are particularly prevalent.
 
 #### Mobile Sender ⇒ Web Target
+  Users who participate in social sharing are at a high risk for falling for a phishing attack. Also, popular mobile applications do not commonly link users to web sites for payment.
+
 ### Web Sender
+  For each domain, they collected the links on the home page and one representative page of content, as linked off the home page. In order to collect the links, we built a Firefox extension to crawl each loaded page and find link target values. 
+
 #### Web Sender ⇒ Mobile Target
+  If the application is not installed, a link to a mobile application could fail. Sometimes, web sites often link users to the Apple App Store or Android Market to install the company’s mobile application. Web sites commonly link to mobile e-mail and Twitter.  applications. Twitter, in particular, is an attractive phishing target.
+
 #### Web Sender ⇒ Web Target
+  Web-to-web links are a standard part of the Internet. So this paper did not measure their use in data set.
 
 
 ## Phishing Attacks
