@@ -32,13 +32,24 @@ Adrienne Porter Felt, David Wagner
   - Web Sender ⇒ Web Target
 
 ## Common Control Transfers
+### Mobile Sender
+#### Mobile Sender ⇒ Mobile Target
+#### Mobile Sender ⇒ Web Target
+### Web Sender
+#### Web Sender ⇒ Mobile Target
+#### Web Sender ⇒ Web Target
+
 
 ## Phishing Attacks
+### Mobile Sender ⇒ Mobile Target
+### Mobile Sender ⇒ Web Target
+### Web Sender ⇒ Mobile Target
+### Web Sender ⇒ Web Target
+
 
 ## Risk Evaluation
   An attack's plausibility is a combination of how prevalent the legitimate behavior is in real applications, and how accurately the attacker can copy the legitimate behavior. As the result of matching and evaluating each attack technique, of the 15 attacks, 8 mimic common legitimate behaviors and use highly accurate techniques.  
-  --5.2 Targets
-  
+  In this section, identify the password-protected applications that are linked to the most often by the applications in our data set. These target applications are at the highest risk of phishing attacks because legitimate links to them are so common. Facebook and Twitter are the most common legitimate link targets.
  
 ## Attack Prevention
   Here are some two solutions for the problems due to the absence of identity indicators.
