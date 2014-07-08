@@ -59,18 +59,35 @@ Adrienne Porter Felt, David Wagner
   Mobile login screens are often very simple, which makes them easy to copy. Android’s permission system would do little to warn users of this attack. The Apple application review process might prevent this attack from appearing in the App Store if reviewers detect the fraudulent screen.
 
 ##### 2) Man in the Middle
-  Man-in-the-middle attacks can be launched on mobile applications in two ways: scheme squatting, 
-
+  Man-in-the-middle attacks can be launched on mobile applications in two ways: scheme squatting, task interception.  
+  **Scheme Squatting**  Some applications could register to handle schemes. It does not require any Android permissions. However, it needs additional problem with overhead.  
+  **Task Interception** A malicious application could poll the task list and wait for a target application to come active. It is a very effective attack for Android. The permissions that the attack requires are considered non-dangerous, and neither is displayed to the user.
 
 ### Mobile Sender ⇒ Web Target
 ##### 1) Direct Attack
+  The attacker can eavesdrop on the user’s interaction with an embedded web site or present the user with a site in a fake browser.  
+  **Embedded Web Content** Pages from password-protected sites trains users to type their password wherever they see a password prompt. This attack is close to indistinguishable from legitimate behavior.  
+  **Web Browser** The phishing web site would hide the URL bar or present a fake URL bar. Alternately, the attacker could display a fake browser that looks identical to the real browser. These attacks have pros and cons respectively.
+
 ##### 2) Man in the Middle
+  **Embedded Web Content** A network attacker could change the “login” button on the page so that it links to a page owned by the attacker. This attack is not detectable by the user.
+  **Web Browser** This attack almost indistinguishable from real browser chrome. Applications can prevent these attacks by only sending users to HTTPS web pages, and never to a HTTP web page.
+
 ### Web Sender ⇒ Mobile Target
 ##### 1) Direct Attack
+  It is possible to build a web site that looks very similar to a mobile application. However, the degree to which a web site can emulate
+an application differs by platform.
+
 ##### 2) Man in the Middle
+  Web-to-mobile links are vulnerable to the same man-in-the-middle attacks as mobile-to-mobile links.
+
 ### Web Sender ⇒ Web Target
 ##### 1) Direct Attack
+  URL bar spoofing has three steps: (1) the attacker hides the legitimate URL bar, (2) the attacker adds a spoofed URL bar to the visible top of the page, and (3) the attacker catches any attempts to scroll to the real top of the page and instead jumps to the fake URL bar.  
+  An observant user could unmask the URL bar hiding attack by scrolling up to view the URL. Despite some shortcmoings, URL bar hiding and spoofing attacks were very successful.
+
 ##### 2) Man in the Middle
+  This attack is unobtrusive and would likely go undetected by users. It relies on the mobile browser URL hiding and spoofing techniques. The only way for the user to avoid the attack is to manually enter HTTPS URLs directly into the browser URL bar (or with a saved bookmark).
 
 
 ## Risk Evaluation
