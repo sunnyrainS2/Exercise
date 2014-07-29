@@ -4,7 +4,7 @@ Nadkarni, Adwait, and William Enck. 2014.
 ### Goal and contributions
 
 ##### Goal
-to promote OS security extensibility in the Android platform
+> promote OS security extensibility in the Android platform
 
 ##### Contributions
 > 1. identify the authorization hook semantics required for new operating systems such as Android.
