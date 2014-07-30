@@ -38,7 +38,7 @@ System | security enhancements | Open
 [Aquifer](http://www.enck.org/pubs/nadkarni-ccs13.pdf) | enforces information flow control policies that follow the user's UI workflow | 
 [IPC Inspection]() | track Android intent messages through a chain of applications to prevent privilege exscalation attacks | 
 [Quire](https://www.usenix.org/legacy/event/sec11/tech/full_papers/Dietz7-26-11.pdf) | ditto | 
-[APEX](http://delivery.acm.org/10.1145/1760000/1755732/p328-nauman.pdf?ip=147.46.246.166&id=1755732&acc=ACTIVE%20SERVICE&key=0EC22F8658578FE1%2ED83A6478590749B7%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=519539945&CFTOKEN=32700454&__acm__=1406699169_c4a6cd191795af7e2b660426ee2d7aea) | provide fine-grained permissions | 
+[APEX](dl.acm.org/ft_gateway.cfm?id=1755732) | provide fine-grained permissions | 
 [CRePE](http://dl.acm.org/citation.cfm?id=1949355) | ditto | 
 [TISSA](http://www.cs.ncsu.edu/faculty/jiang/pubs/TRUST11.pdf) | allow fine-grained policies as well as allow the substitution of fake information into Android APIs - 1) | 
 [MockDroid](http://www.cl.cam.ac.uk/~acr31/pubs/beresford-mockdroid.pdf) | ditto | 
