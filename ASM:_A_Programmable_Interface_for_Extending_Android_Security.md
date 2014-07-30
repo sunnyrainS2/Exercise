@@ -27,8 +27,8 @@ Android defines four types of components: *activity*, *service*, *broadcast rece
 
 ### Android security enhancements
 
-System | security enhancements | Open
------- | --------------------- | ----
+System | security enhancements | Open-source
+------ | --------------------- | -----------
 [Kirin](http://delivery.acm.org/10.1145/1660000/1653691/p235-enck.pdf?ip=147.46.246.166&id=1653691&acc=ACTIVE%20SERVICE&key=0EC22F8658578FE1%2ED83A6478590749B7%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&CFID=519539945&CFTOKEN=32700454&__acm__=1406683501_5248a6caf3f197167328090a87a95565) | place constraints on permissions of applications being installed | O 
 [Saint](http://www.enck.org/pubs/acsac09.pdf) | mediate communication between components in different applications | 
 [XManDroid](http://www-infsec.cs.uni-saarland.de/~bugiel/publications/pdfs/XManDroid-tr-2011-04.pdf) | ditto | 
